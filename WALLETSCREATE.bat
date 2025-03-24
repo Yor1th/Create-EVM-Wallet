@@ -1,7 +1,7 @@
 @echo off
-cd %USERPROFILE%\Desktop\12345
 echo Установка необходимых библиотек...
 pip install mnemonic pandas eth_account
+pip install pyfiglet
 echo Запуск wall.py...
 python wall.py
 pause
